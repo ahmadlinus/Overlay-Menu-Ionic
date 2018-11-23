@@ -6,7 +6,7 @@ import { Events } from "ionic-angular";
   selector: 'overlay-menu',
   template: '<div #menu [@menuOpening]="menuHidden ? \'closed\' : \'open\'" class="custom-menu">\n' +
   '  <div class="items">\n' +
-  '    <button #closeButton ion-button icon-only clear class="menu-close-button" (click)="closeMenu()" icon-start>\n' +
+  '    <button #closeButton ion-button icon-only clear style="color: white; margin-left: 2%" class="menu-close-button" (click)="closeMenu()" icon-start>\n' +
   '      <ion-icon name="close"></ion-icon>\n' +
   '    </button>\n' +
   '    <h4 style="margin-left: 5%" *ngFor="let item of menuItems" (click)="selectItem(item)">\n' +
@@ -32,7 +32,6 @@ import { Events } from "ionic-angular";
   '        position: fixed;\n' +
   '        width: 100%;\n' +
   '        height: 100%;\n' +
-  '        background: red;\n' +
   '        opacity: 0;\n' +
   '        visibility: hidden;\n' +
   '        z-index: 20;\n' +
