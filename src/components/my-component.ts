@@ -6,7 +6,7 @@ import { Events } from "ionic-angular";
   selector: 'overlay-menu',
   template: '<div #menu [@menuOpening]="menuHidden ? \'closed\' : \'open\'" class="custom-menu">\n' +
   '  <div class="items">\n' +
-  '    <button #closeButton ion-button icon-only class="menu-close-button" (click)="closeMenu()" icon-start>\n' +
+  '    <button #closeButton ion-button icon-only clear class="menu-close-button" (click)="closeMenu()" icon-start>\n' +
   '      <ion-icon name="close"></ion-icon>\n' +
   '    </button>\n' +
   '    <h4 style="margin-left: 5%" *ngFor="let item of menuItems" (click)="selectItem(item)">\n' +
@@ -43,12 +43,8 @@ import { Events } from "ionic-angular";
   '        overflow: scroll;  // scroll when the categories exceed the limit\n' +
   '\n' +
   '        .menu-close-button {\n' +
-  '          background-color: red;\n' +
   '          width: 5px;\n' +
   '          margin-bottom: 0;\n' +
-  '          &:active {\n' +
-  '            background-color: red;\n' +
-  '          }\n' +
   '        }\n' +
   '      }']
 })
