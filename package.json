@@ -1,12 +1,12 @@
 {
-  "name": "ionic-module-template",
-  "version": "0.0.12",
+  "name": "test-module-ionic",
+  "version": "0.0.20",
   "description": "A template for creating reusable module for Angular 2 and Ionic 2",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": "dist",
   "scripts": {
-    "ngc": "ngc",
+    "ngc": "./node_modules/.bin/ngc",
     "build": "rm -rf aot dist && npm run ngc",
     "publishPackage": "npm run build && npm publish"
   },
@@ -22,15 +22,21 @@
   },
   "homepage": "https://github.com/driftyco/ionic-module-template#readme",
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/common": "^5.2.11",
+    "@angular/compiler": "^5.2.11",
+    "@angular/compiler-cli": "^5.2.11",
+    "@angular/core": "^5.2.11",
+    "@angular/platform-browser": "^5.2.11",
+    "@angular/platform-browser-dynamic": "^5.2.11",
     "@types/node": "^6.0.60",
-    "zone.js": "^0.8.4",
-    "rxjs": "^5.4.0",
-    "typescript": "^2.3.4"
+    "rxjs": "^5.5.12",
+    "typescript": "^2.4.2",
+    "zone.js": "^0.8.4"
+  },
+  "dependencies": {
+    "@angular/animations": "^5.2.11",
+    "@angular/forms": "^5.2.11",
+    "ionic-angular": "^3.9.2",
+    "web-animations-js": "^2.3.1"
   }
 }
