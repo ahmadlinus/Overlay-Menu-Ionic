@@ -1,7 +1,7 @@
 {
-  "name": "test-module-ionic",
-  "version": "0.0.20",
-  "description": "A template for creating reusable module for Angular 2 and Ionic 2",
+  "name": "overlay-menu-ionic",
+  "version": "0.0.1",
+  "description": "An overlay menu for Ionic based on the ionic template for packages",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": "dist",
