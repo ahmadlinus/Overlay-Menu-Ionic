@@ -16,13 +16,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     OverlayMenuComponent,
     MenuOpenDirective
   ],
-  imports: [IonicModule.forRoot(MyModule),
+  imports: [IonicModule.forRoot(OverlayMenuModule),
   BrowserAnimationsModule]
 })
-export class MyModule {
+export class OverlayMenuModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: MyModule,
+      ngModule: OverlayMenuModule,
     };
   }
 }
