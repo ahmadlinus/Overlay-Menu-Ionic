@@ -1,6 +1,6 @@
 {
   "name": "overlay-menu-ionic",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An overlay menu for Ionic based on the ionic template for packages",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
