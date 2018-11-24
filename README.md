@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/overlay-menu-ionic.svg?style=flat)](https://www.npmjs.com/package/overlay-menu-ionic)
+[![npm version](https://badge.fury.io/js/overlay-menu-ionic.svg)](https://badge.fury.io/js/overlay-menu-ionic)
 
 # Introduction
 
